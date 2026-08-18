@@ -1,0 +1,58 @@
+[
+  { "type": "cover", "title": "A Gentle Reminder", "subtitle": "For when you don't recognize yourself anymore." },
+  { "type": "blank" },
+  { "type": "title", "content": "A Gentle Reminder" },
+  { "type": "toc" },
+
+  { "type": "chapter_divider", "chapterNumber": "Chapter I", "chapterTitle": "The Weight of the Past" },
+  
+  { "type": "content", "header": "You Are Allowed to Change", "subtitle": "Even if you don't recognize yourself anymore.", "text": ["You cannot change what happened yesterday.", "<strong>But you can decide what kind of person you become tomorrow.</strong>", "The fact that you are reading this means you are already starting.", "It means you care enough to try. That is not nothing. That is the entire foundation."] },
+  
+  { "type": "reminder", "text": "You don't have to hate yourself in order to take responsibility for yourself." },
+
+  { "type": "content", "header": "The Archive of Regret", "text": ["We keep an archive in our minds of everything we have ever done wrong.", "We pull the files out at 2 AM.", "We study them. We memorize the mistakes.", "You may regret what you did.", "<strong>But regret is supposed to teach you, not become your permanent home.</strong>", "Learn the lesson, and then close the file."] },
+  
+  { "type": "reflection", "prompt": "What am I avoiding admitting to myself?", "subtitle": "Write it down so it stops haunting you." },
+  
+  { "type": "content", "header": "Forgiving the Past You", "subtitle": "They were doing their best.", "text": ["You are judging a past version of yourself with the wisdom you only gained *because* of their mistakes.", "It is an unfair trial.", "The version of you that made those choices was likely hurting, scared, or lost.", "Have some grace for them. They got you here."] },
+  
+  { "type": "quote", "text": "You are allowed to become someone your past self would not recognize." },
+
+  { "type": "special", "header": "Read This When You Feel Like You Ruined Everything", "text": ["Take a breath.", "You have broken things, yes. We all do.", "But almost nothing is beyond repair, and even the things that are broken can be rebuilt into something new.", "The world has not ended.", "You are still here, and you still have a choice about what you do next."] },
+
+  { "type": "chapter_divider", "chapterNumber": "Chapter II", "chapterTitle": "The Myth of Perfection" },
+  
+  { "type": "content", "header": "The Impossibly High Bar", "subtitle": "Lower it to where you can actually jump.", "text": ["You want to be perfect immediately. You want to wake up tomorrow and never make a mistake again.", "That is not growth. That is fantasy.", "Growth is messy.", "Growth is two steps forward, one step back, and a sincere apology in between.", "<strong>Stop demanding perfection and start demanding consistency.</strong>"] },
+  
+  { "type": "content", "header": "The Danger of 'Should'", "text": ["'I should be over this by now.'", "'I should know better.'", "The word 'should' is a weapon we use against ourselves.", "Remove it from your vocabulary.", "Replace it with 'I am learning how to...'", "<strong>I am learning how to be over this. I am learning how to know better.</strong>"] },
+  
+  { "type": "reflection", "prompt": "What is an unrealistic expectation I have placed on myself?" },
+  
+  { "type": "reminder", "text": "Saying sorry matters. But real change is what happens after the apology." },
+
+  { "type": "content", "header": "Embracing the Flaws", "text": ["Your flaws are not the enemy.", "They are the map.", "They show you exactly where the work needs to be done.", "Do not hide them. Do not pretend they do not exist.", "Put them on the table. Look at them.", "They lose their power when you stop being afraid of them."] },
+
+  { "type": "quote", "text": "A mistake is an event. It is not an identity." },
+
+  { "type": "chapter_divider", "chapterNumber": "Chapter III", "chapterTitle": "Learning How to Apologize" },
+  
+  { "type": "content", "header": "The Anatomy of 'I'm Sorry'", "text": ["A real apology does not include the word 'but'.", "'I am sorry, but you made me mad' is not an apology. It is an accusation.", "A real apology takes full ownership.", "<strong>'I am sorry that I raised my voice. It was wrong, and I will do better.'</strong>", "Full stop."] },
+  
+  { "type": "content", "header": "The Wait", "subtitle": "Patience is part of the apology.", "text": ["When you apologize, you hand someone a gift.", "They are not obligated to open it immediately.", "They might need time. They might be angry.", "You do not get to dictate their timeline for forgiveness.", "<strong>Your job is to apologize and wait.</strong>"] },
+  
+  { "type": "reflection", "prompt": "Who deserves an apology from me that I have been withholding out of pride?" },
+  
+  { "type": "content", "header": "Apologizing to Yourself", "text": ["We apologize to the people we hurt, but we rarely apologize to the person who has carried the heaviest burden: ourselves.", "Look in the mirror.", "Say, 'I am sorry for the way I have spoken to you.'", "Say, 'I am sorry for not protecting you.'", "It sounds silly until you do it. Then, it sounds like healing."] },
+
+  { "type": "chapter_divider", "chapterNumber": "Chapter IV", "chapterTitle": "The Anatomy of Healing" },
+  
+  { "type": "quote", "text": "Healing is not a destination. It is a daily practice." },
+
+  { "type": "content", "header": "The Spiral Staircase", "text": ["Healing is not a straight line up a mountain.", "It is a spiral staircase.", "Sometimes you will feel like you are looking at the exact same scenery you saw a year ago.", "You will think, 'I haven't made any progress.'", "But you have.", "<strong>You are looking at the same scenery, but from one level higher.</strong>"] },
+  
+  { "type": "content", "header": "The Messy Middle", "text": ["Starting is exciting. Finishing is satisfying.", "The middle is where most people quit.", "The middle is boring. The middle is doing the right thing when no one is watching.", "The middle is biting your tongue for the fiftieth time.", "Do not quit in the middle. The middle is where the actual changing happens."] },
+  
+  { "type": "reflection", "prompt": "What does a healed version of me look like? How do they walk, talk, and love?" },
+  
+  { "type": "special", "header": "Read This When You Feel Like You're Going Backwards", "text": ["A relapse in behavior is not a reset of your progress.", "If you walk ten miles and trip, you do not magically teleport back to the starting line.", "You are just a person who tripped ten miles in.", "Dust your knees off.", "Apologize if you need to. And take the next step forward."] }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>A Gentle Reminder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation -->
+        <header class="top-nav">
+            <button id="btn-today" class="nav-btn" title="A Page for Today">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="nav-text">For Today</span>
+            </button>
+            <div class="nav-right">
+                <button id="btn-search-modal" class="nav-btn" title="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <button id="btn-bookmarks-modal" class="nav-btn" title="Bookmarks">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Book Area -->
+        <main class="book-container">
+            <div class="flip-book" id="book">
+                <!-- Pages injected dynamically by app.js -->
+            </div>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <footer class="bottom-nav">
+            <button id="btn-prev" class="nav-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            
+            <div class="page-jumper">
+                <span id="page-current">1</span>
+                <span>/</span>
+                <span id="page-total">...</span>
+                <div class="jump-input-wrapper">
+                    <input type="number" id="input-jump" placeholder="#" min="1">
+                    <button id="btn-jump">Go</button>
+                </div>
+            </div>
+
+            <button id="btn-next" class="nav-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+        </footer>
+    </div>
+
+    <!-- Search Modal -->
+    <div id="search-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Search</h2>
+                <button class="close-btn" id="close-search">&times;</button>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="search-input" placeholder="Type to search (e.g., guilt, love)...">
+                <div id="search-results" class="results-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bookmarks Modal -->
+    <div id="bookmarks-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>My Bookmarks</h2>
+                <button class="close-btn" id="close-bookmarks">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="bookmarks-list" class="results-container">
+                    <p class="empty-state">No bookmarks yet. Tap the ♡ on any page to save it here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.js"></script>
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
